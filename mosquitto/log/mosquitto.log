@@ -1,0 +1,18 @@
+1748424445: mosquitto version 2.0.21 terminating
+1748424445: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748424452: mosquitto version 2.0.21 starting
+1748424452: Config loaded from /mosquitto/config/mosquitto.conf.
+1748424452: Opening ipv4 listen socket on port 1883.
+1748424452: Opening ipv6 listen socket on port 1883.
+1748424452: mosquitto version 2.0.21 running
+1748424452: New connection from 172.23.0.1:38258 on port 1883.
+1748424452: New client connected from 172.23.0.1:38258 as mqtt-explorer-7f56717f (p2, c1, k60).
+1748424467: New connection from 172.23.0.1:47286 on port 1883.
+1748424468: New client connected from 172.23.0.1:47286 as temp-publisher (p2, c1, k60).
+1748424469: New connection from 172.23.0.1:47292 on port 1883.
+1748424470: New client connected from 172.23.0.1:47292 as temp-subscriber (p2, c0, k60).
+1748424486: Client temp-subscriber closed its connection.
+1748424503: New connection from 172.23.0.1:33066 on port 1883.
+1748424504: New client connected from 172.23.0.1:33066 as temp-subscriber (p2, c0, k60).
+1748424529: Client temp-subscriber closed its connection.
+1748424530: Client temp-publisher closed its connection.
