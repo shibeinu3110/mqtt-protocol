@@ -1,0 +1,14 @@
+#data:
+#  mongodb:
+#    uri: mongodb://admin:admin123@localhost:27017
+#    username: admin
+#    password: admin123
+#    authentication-database: admin
+#    port: 27017
+#    host: localhost
+#    database: mqtt-db
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:admin123@localhost:27017/mqtt-db?authSource=admin
