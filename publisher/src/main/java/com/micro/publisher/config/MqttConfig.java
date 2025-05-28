@@ -35,7 +35,10 @@ public class MqttConfig {
         MqttClient client = new MqttClient(broker, clientId, new MemoryPersistence());
         MqttConnectOptions options = new MqttConnectOptions();
         // clear all session data on disconnect
-        options.setCleanSession(true);
+        options.setCleanSession(false);
+        options.setAutomaticReconnect(true);
+
+
         client.connect(options);
         return client;
     }
