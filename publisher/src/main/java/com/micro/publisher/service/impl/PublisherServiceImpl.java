@@ -4,6 +4,7 @@ import com.micro.publisher.document.SavedData;
 import com.micro.publisher.enumarate.MessageStatus;
 import com.micro.publisher.repository.SavedDataRepository;
 import com.micro.publisher.service.PublisherService;
+import jakarta.annotation.PreDestroy;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.paho.client.mqttv3.MqttClient;
@@ -11,6 +12,8 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 @Service
 @RequiredArgsConstructor
@@ -18,6 +21,7 @@ import java.time.LocalDateTime;
 public class PublisherServiceImpl implements PublisherService {
     private final MqttClient mqttClient;
     private final SavedDataRepository savedDataRepository;
+    private ExecutorService executorService = Executors.newSingleThreadExecutor();
 
     @Override
     public void publishOrSave(double temperature, String topic) {
@@ -36,8 +40,19 @@ public class PublisherServiceImpl implements PublisherService {
                 log.error("Failed to publish temperature", e);
             }
         } else {
-            savedDataRepository.save(new SavedData(String.valueOf(temperature), LocalDateTime.now(), MessageStatus.PENDING));
-            log.warn("MQTT client is not connected, cannot publish temperature");
+            executorService.submit(() -> {
+                savedDataRepository.save(new SavedData(String.valueOf(temperature), LocalDateTime.now(), MessageStatus.PENDING));
+                log.warn("MQTT client is not connected, cannot publish temperature");
+            });
         }
+    }
+
+    @PreDestroy
+    public void shutdown() {
+        if (executorService != null && !executorService.isShutdown()) {
+            executorService.shutdown();
+            log.info("Executor service has been shut down.");
+        }
+
     }
 }

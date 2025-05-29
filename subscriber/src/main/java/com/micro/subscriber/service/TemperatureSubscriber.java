@@ -1,10 +1,14 @@
 package com.micro.subscriber.service;
 
 import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.paho.client.mqttv3.*;
 import org.springframework.stereotype.Component;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 @Component
 @RequiredArgsConstructor
@@ -12,6 +16,7 @@ import org.springframework.stereotype.Component;
 public class TemperatureSubscriber {
 
     private final MqttClient mqttClient;
+    private final ExecutorService executorService = Executors.newSingleThreadExecutor();
 
     @PostConstruct
     public void init() {
@@ -34,7 +39,14 @@ public class TemperatureSubscriber {
                 } else {
                     log.info("Connected to MQTT broker for the first time: {}", serverURI);
                 }
-                subscribeToTopic();
+                // put subscribe to topic in another thread to avoid blocking connect process
+                executorService.submit(() -> {
+                    try {
+                        subscribeToTopic();
+                    } catch (Exception e) {
+                        log.error("Error subscribing to topic", e);
+                    }
+                });
             }
 
             @Override
@@ -62,6 +74,15 @@ public class TemperatureSubscriber {
             log.info("Subscribed to topic: sensor/temperature");
         } catch (MqttException e) {
             log.error("Failed to subscribe to topic", e);
+        }
+    }
+
+
+    @PreDestroy
+    public void shutdown() {
+        if (executorService != null && !executorService.isShutdown()) {
+            executorService.shutdown();
+            log.info("Executor service has been shut down.");
         }
     }
 }

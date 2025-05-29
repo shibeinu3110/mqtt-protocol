@@ -17,10 +17,11 @@ public class TemperaturePublisher {
     private final SavedDataRepository savedDataRepository;
     private final PublisherService publisherService;
     private final String topic = "sensor/temperature";
+    Random random = new Random();
 
     @Scheduled(fixedRate = 5000) // Publish every 5 seconds
     public void publishTemperature() {
-        Random random = new Random();
+
         double temperature = 15 + random.nextInt(15);
         publisherService.publishOrSave(temperature, topic);
     }
