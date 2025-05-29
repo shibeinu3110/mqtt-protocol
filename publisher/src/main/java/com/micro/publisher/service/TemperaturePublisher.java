@@ -16,6 +16,7 @@ public class TemperaturePublisher {
     private final MqttClient mqttClient;
     private final SavedDataRepository savedDataRepository;
     private final PublisherService publisherService;
+    private final RetryService retryService;
     private final String topic = "sensor/temperature";
     Random random = new Random();
 
@@ -24,5 +25,10 @@ public class TemperaturePublisher {
 
         double temperature = 15 + random.nextInt(15);
         publisherService.publishOrSave(temperature, topic);
+    }
+
+    @Scheduled(fixedRate = 10000) // Retry every 10 seconds
+    public void retryPendingMessages() {
+        retryService.sendPendingMessages();
     }
 }

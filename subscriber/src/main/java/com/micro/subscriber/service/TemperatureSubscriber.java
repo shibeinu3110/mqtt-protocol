@@ -64,7 +64,6 @@ public class TemperatureSubscriber {
             public void deliveryComplete(IMqttDeliveryToken iMqttDeliveryToken) {
 
             }
-
         });
     }
 

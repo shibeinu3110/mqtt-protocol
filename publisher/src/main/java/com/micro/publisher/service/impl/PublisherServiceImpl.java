@@ -23,6 +23,7 @@ public class PublisherServiceImpl implements PublisherService {
     private final SavedDataRepository savedDataRepository;
     private ExecutorService executorService = Executors.newSingleThreadExecutor();
 
+
     @Override
     public void publishOrSave(double temperature, String topic) {
         if (mqttClient.isConnected()) {

@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 
@@ -20,7 +21,15 @@ import java.time.LocalDateTime;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Document(collection = "saved_data")
 public class SavedData {
+    @Id
+    String id;
     String data;
     LocalDateTime date;
     MessageStatus status;
+
+    public SavedData(String data, LocalDateTime date, MessageStatus status) {
+        this.data = data;
+        this.date = date;
+        this.status = status;
+    }
 }
