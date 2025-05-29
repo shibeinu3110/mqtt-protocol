@@ -1207,3 +1207,301 @@
 1748441962: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1748441963: mosquitto version 2.0.21 terminating
 1748441963: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748441974: mosquitto version 2.0.21 starting
+1748441974: Config loaded from /mosquitto/config/mosquitto.conf.
+1748441974: Opening ipv4 listen socket on port 1883.
+1748441974: Opening ipv6 listen socket on port 1883.
+1748441974: mosquitto version 2.0.21 running
+1748483737: mosquitto version 2.0.21 starting
+1748483737: Config loaded from /mosquitto/config/mosquitto.conf.
+1748483737: Opening ipv4 listen socket on port 1883.
+1748483737: Opening ipv6 listen socket on port 1883.
+1748483737: mosquitto version 2.0.21 running
+1748483744: mosquitto version 2.0.21 terminating
+1748483744: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748486538: mosquitto version 2.0.21 starting
+1748486538: Config loaded from /mosquitto/config/mosquitto.conf.
+1748486538: Opening ipv4 listen socket on port 1883.
+1748486538: Opening ipv6 listen socket on port 1883.
+1748486538: mosquitto version 2.0.21 running
+1748486948: mosquitto version 2.0.21 terminating
+1748486948: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487116: mosquitto version 2.0.21 starting
+1748487116: Config loaded from /mosquitto/config/mosquitto.conf.
+1748487116: Opening ipv4 listen socket on port 1883.
+1748487116: Opening ipv6 listen socket on port 1883.
+1748487116: mosquitto version 2.0.21 running
+1748487125: New connection from 172.23.0.1:51926 on port 1883.
+1748487126: New client connected from 172.23.0.1:51926 as temp-publisher (p2, c0, k60).
+1748487126: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487126: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: New connection from 172.23.0.1:51936 on port 1883.
+1748487128: New client connected from 172.23.0.1:51936 as temp-subscriber (p2, c0, k60).
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487128: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487131: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487136: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487141: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487146: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487151: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487156: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487160: mosquitto version 2.0.21 terminating
+1748487160: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487230: mosquitto version 2.0.21 starting
+1748487230: Config loaded from /mosquitto/config/mosquitto.conf.
+1748487230: Opening ipv4 listen socket on port 1883.
+1748487230: Opening ipv6 listen socket on port 1883.
+1748487230: mosquitto version 2.0.21 running
+1748487236: New connection from 172.23.0.1:46194 on port 1883.
+1748487237: New client connected from 172.23.0.1:46194 as temp-publisher (p2, c0, k60).
+1748487237: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487237: New connection from 172.23.0.1:46196 on port 1883.
+1748487237: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487237: New client connected from 172.23.0.1:46196 as temp-subscriber (p2, c0, k60).
+1748487237: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487237: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487237: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487242: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487247: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487251: Client temp-subscriber closed its connection.
+1748487252: Client temp-publisher closed its connection.
+1748487259: New connection from 172.23.0.1:34868 on port 1883.
+1748487259: New client connected from 172.23.0.1:34868 as temp-publisher (p2, c0, k60).
+1748487259: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487260: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487261: Client temp-publisher closed its connection.
+1748487263: New connection from 172.23.0.1:34876 on port 1883.
+1748487263: New client connected from 172.23.0.1:34876 as temp-publisher (p2, c0, k60).
+1748487263: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487264: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487266: New connection from 172.23.0.1:39400 on port 1883.
+1748487266: New client connected from 172.23.0.1:39400 as temp-subscriber (p2, c0, k60).
+1748487266: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487266: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487266: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487266: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487269: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487274: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487279: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487284: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487289: Client temp-publisher closed its connection.
+1748487290: Client temp-subscriber closed its connection.
+1748487568: New connection from 172.23.0.1:47978 on port 1883.
+1748487568: New client connected from 172.23.0.1:47978 as temp-publisher (p2, c0, k60).
+1748487568: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487569: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487570: New connection from 172.23.0.1:47986 on port 1883.
+1748487570: New client connected from 172.23.0.1:47986 as temp-subscriber (p2, c0, k60).
+1748487570: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487570: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487570: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487574: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487579: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487583: Client temp-publisher closed its connection.
+1748487586: Client temp-subscriber closed its connection.
+1748487586: New connection from 172.23.0.1:33394 on port 1883.
+1748487586: New client connected from 172.23.0.1:33394 as temp-publisher (p2, c0, k60).
+1748487586: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487587: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487588: New connection from 172.23.0.1:33404 on port 1883.
+1748487588: New client connected from 172.23.0.1:33404 as temp-subscriber (p2, c0, k60).
+1748487588: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487588: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487588: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487592: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487597: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487602: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487607: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487608: Client temp-publisher closed its connection.
+1748487610: New connection from 172.23.0.1:42866 on port 1883.
+1748487610: Client temp-subscriber closed its connection.
+1748487611: New client connected from 172.23.0.1:42866 as temp-publisher (p2, c0, k60).
+1748487611: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487611: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487613: New connection from 172.23.0.1:42874 on port 1883.
+1748487613: New client connected from 172.23.0.1:42874 as temp-subscriber (p2, c0, k60).
+1748487613: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487613: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487613: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487616: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487621: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487626: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748487627: Client temp-publisher closed its connection.
+1748487629: Client temp-subscriber closed its connection.
+1748488216: New connection from 172.23.0.1:52268 on port 1883.
+1748488217: New client connected from 172.23.0.1:52268 as temp-publisher (p2, c0, k60).
+1748488217: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488217: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488219: New connection from 172.23.0.1:52276 on port 1883.
+1748488219: New client connected from 172.23.0.1:52276 as temp-subscriber (p2, c0, k60).
+1748488219: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488219: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488219: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488222: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488227: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488232: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488237: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488239: mosquitto version 2.0.21 terminating
+1748488239: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488692: mosquitto version 2.0.21 starting
+1748488692: Config loaded from /mosquitto/config/mosquitto.conf.
+1748488692: Opening ipv4 listen socket on port 1883.
+1748488692: Opening ipv6 listen socket on port 1883.
+1748488692: mosquitto version 2.0.21 running
+1748488698: New connection from 172.23.0.1:59698 on port 1883.
+1748488699: New client connected from 172.23.0.1:59698 as temp-publisher (p2, c0, k60).
+1748488699: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488699: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488700: New connection from 172.23.0.1:59714 on port 1883.
+1748488700: New client connected from 172.23.0.1:59714 as temp-subscriber (p2, c0, k60).
+1748488700: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488700: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488700: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488704: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488709: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488714: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488719: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488724: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488729: mosquitto version 2.0.21 terminating
+1748488729: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488744: mosquitto version 2.0.21 starting
+1748488744: Config loaded from /mosquitto/config/mosquitto.conf.
+1748488744: Opening ipv4 listen socket on port 1883.
+1748488744: Opening ipv6 listen socket on port 1883.
+1748488744: mosquitto version 2.0.21 running
+1748488760: New connection from 172.23.0.1:48482 on port 1883.
+1748488760: New client connected from 172.23.0.1:48482 as temp-publisher (p2, c0, k60).
+1748488760: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488764: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488769: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488774: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488778: Client temp-publisher closed its connection.
+1748488991: New connection from 172.23.0.1:36046 on port 1883.
+1748488991: New client connected from 172.23.0.1:36046 as temp-publisher (p2, c0, k60).
+1748488991: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488992: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488994: New connection from 172.23.0.1:36054 on port 1883.
+1748488995: New client connected from 172.23.0.1:36054 as temp-subscriber (p2, c0, k60).
+1748488995: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488995: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488995: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488995: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488995: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488995: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748488997: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489002: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489007: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489012: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489014: mosquitto version 2.0.21 terminating
+1748489014: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489028: mosquitto version 2.0.21 starting
+1748489028: Config loaded from /mosquitto/config/mosquitto.conf.
+1748489028: Opening ipv4 listen socket on port 1883.
+1748489028: Opening ipv6 listen socket on port 1883.
+1748489028: mosquitto version 2.0.21 running
+1748489029: New connection from 172.23.0.1:34178 on port 1883.
+1748489029: New client connected from 172.23.0.1:34178 as temp-publisher (p2, c0, k60).
+1748489029: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489032: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489037: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489040: Client temp-publisher closed its connection.
+1748489119: New connection from 172.23.0.1:56992 on port 1883.
+1748489119: New client connected from 172.23.0.1:56992 as temp-publisher (p2, c0, k60).
+1748489119: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489120: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489121: New connection from 172.23.0.1:57002 on port 1883.
+1748489122: New client connected from 172.23.0.1:57002 as temp-subscriber (p2, c0, k60).
+1748489122: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489122: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489122: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489122: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489122: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489125: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489130: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489135: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489140: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489145: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489146: mosquitto version 2.0.21 terminating
+1748489146: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489154: mosquitto version 2.0.21 starting
+1748489154: Config loaded from /mosquitto/config/mosquitto.conf.
+1748489154: Opening ipv4 listen socket on port 1883.
+1748489154: Opening ipv6 listen socket on port 1883.
+1748489154: mosquitto version 2.0.21 running
+1748489161: New connection from 172.23.0.1:35996 on port 1883.
+1748489161: New connection from 172.23.0.1:35984 on port 1883.
+1748489161: New client connected from 172.23.0.1:35984 as temp-subscriber (p2, c0, k60).
+1748489161: New client connected from 172.23.0.1:35996 as temp-publisher (p2, c0, k60).
+1748489161: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489161: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489165: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489170: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489172: Client temp-publisher closed its connection.
+1748489173: Client temp-subscriber closed its connection.
+1748489617: New connection from 172.23.0.1:45768 on port 1883.
+1748489618: New client connected from 172.23.0.1:45768 as temp-publisher (p2, c0, k60).
+1748489618: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489618: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489623: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489628: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489628: New connection from 172.23.0.1:51784 on port 1883.
+1748489629: New client connected from 172.23.0.1:51784 as temp-subscriber (p2, c0, k60).
+1748489629: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489629: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489629: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489629: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489629: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489633: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489638: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489641: Client temp-subscriber closed its connection.
+1748489643: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489648: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489653: New connection from 172.23.0.1:39230 on port 1883.
+1748489653: New client connected from 172.23.0.1:39230 as temp-subscriber (p2, c0, k60).
+1748489653: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489653: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489653: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489653: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489653: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489658: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489663: Client temp-publisher closed its connection.
+1748489666: New connection from 172.23.0.1:59060 on port 1883.
+1748489666: Client temp-subscriber closed its connection.
+1748489666: New client connected from 172.23.0.1:59060 as temp-publisher (p2, c0, k60).
+1748489666: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489667: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489669: New connection from 172.23.0.1:59068 on port 1883.
+1748489669: New client connected from 172.23.0.1:59068 as temp-subscriber (p2, c0, k60).
+1748489669: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489669: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489669: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489672: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489677: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489682: Client temp-subscriber closed its connection.
+1748489682: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748489683: Client temp-publisher closed its connection.
+1748490089: New connection from 172.23.0.1:33018 on port 1883.
+1748490090: New client connected from 172.23.0.1:33018 as temp-publisher (p2, c0, k60).
+1748490090: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748490090: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748490093: New connection from 172.23.0.1:33032 on port 1883.
+1748490093: New client connected from 172.23.0.1:33032 as temp-subscriber (p2, c0, k60).
+1748490093: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748490093: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748490093: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748490093: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748490095: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748490100: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748490105: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748490110: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748490114: mosquitto version 2.0.21 terminating
+1748490114: Saving in-memory database to /mosquitto/data//mosquitto.db.

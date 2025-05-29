@@ -1,5 +1,6 @@
 package com.micro.publisher.document;
 
+import com.micro.publisher.enumarate.MessageStatus;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -21,4 +22,5 @@ import java.time.LocalDateTime;
 public class SavedData {
     String data;
     LocalDateTime date;
+    MessageStatus status;
 }

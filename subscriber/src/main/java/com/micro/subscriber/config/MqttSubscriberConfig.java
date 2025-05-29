@@ -32,7 +32,7 @@ public class MqttSubscriberConfig {
         MqttClient client = new MqttClient(broker, clientId, new MemoryPersistence());
         MqttConnectOptions options = new MqttConnectOptions();
         options.setCleanSession(false);
-//        options.setAutomaticReconnect(true);
+        options.setAutomaticReconnect(true);
         client.connect(options);
 
         return client;
