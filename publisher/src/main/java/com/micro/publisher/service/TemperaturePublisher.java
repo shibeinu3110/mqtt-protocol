@@ -20,7 +20,7 @@ public class TemperaturePublisher {
     private final String topic = "sensor/temperature";
     Random random = new Random();
 
-    @Scheduled(fixedRate = 5000) // Publish every 5 seconds
+    @Scheduled(fixedRate = 1000) // Publish every 5 seconds
     public void publishTemperature() {
 
         double temperature = 15 + random.nextInt(15);

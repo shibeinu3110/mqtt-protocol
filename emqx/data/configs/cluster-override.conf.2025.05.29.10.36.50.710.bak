@@ -1,0 +1,10 @@
+log {
+  console_handler {enable = true}
+  file_handlers {
+    default {
+      enable = false
+      file = "log/emqx.log"
+      level = "warning"
+    }
+  }
+}

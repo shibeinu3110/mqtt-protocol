@@ -1,0 +1,8 @@
+#{id => {ds_messages2_E303DB2C351E6891,'emqx@172.23.0.3'},
+  machine =>
+      {module,emqx_ds_replication_layer,#{db => messages,shard => <<"2">>}},
+  uid => <<"2_1748572454474943">>,cluster_name => <<"messages_2">>,
+  initial_members => [{ds_messages2_E303DB2C351E6891,'emqx@172.23.0.3'}],
+  log_init_args => #{uid => <<"2_1748572454474943">>},
+  await_condition_timeout => 30000,broadcast_time => 100,tick_timeout => 100,
+  install_snap_rpc_timeout => 120000}.
